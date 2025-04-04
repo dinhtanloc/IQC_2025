@@ -2,7 +2,7 @@
 
 This document provides step-by-step instructions for creating a branch using your name and pushing code to the repository.
 
-## Prerequisites
+## Prerequisites
 
 - Ensure you have Git installed on your machine.
 

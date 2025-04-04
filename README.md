@@ -17,15 +17,14 @@ Step 1: Create a New Branch
 
 1.  Use the following command to create a new branch with your name:
 ```
-    git checkout -b <your-name>
+git checkout -b <your-name>
 
-    Replace `<your-name>` with your actual name (e.g., `locdinh`).
+Replace `<your-name>` with your actual name (e.g., `locdinh`).
 ```
 2.  Verify that you are on the new branch:
 ```
-    git branch
-
-    The branch with an asterisk (*) next to it is your current branch.
+git branch
+// The branch with an asterisk (*) next to it is your current branch.
 ```
 
 * * * * *
@@ -35,13 +34,13 @@ Step 2: Make Changes
 
 1.  Make the necessary changes to the codebase.
 2.  Stage the changes:
-
-    git add .
-
+```
+git add .
+```
 3.  Commit the changes with a meaningful message:
-
-    git commit -m "Your commit message"
-
+```
+git commit -m "Your commit message"
+```
 * * * * *
 
 Step 3: Push the Branch to the Remote Repository
@@ -49,15 +48,13 @@ Step 3: Push the Branch to the Remote Repository
 
 1.  Push your branch to the remote repository:
 ```
-    git push origin <your-name>
-
-    // Replace `<your-name>` with the name of your branch.
+git push origin <your-name>
+// Replace `<your-name>` with the name of your branch.
 ```
 
 2.  If this is your first time pushing the branch, Git may prompt you to set the upstream branch. Use the following command:
 ```
-
-    git push --set-upstream origin <your-name>
+git push --set-upstream origin <your-name>
 ```
 
 * * * * *
@@ -79,9 +76,8 @@ Notes
 
 -   Always pull the latest changes from the `main` branch before starting new work:
 ```
-    git checkout main
-
-    git pull origin main
+git checkout main
+git pull origin main
 ```
 -   Avoid committing directly to the `main` branch.
 -   Use meaningful commit messages to describe your changes.

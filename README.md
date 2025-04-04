@@ -16,8 +16,7 @@ This document provides step-by-step instructions for creating a branch 
 
     cd IQC_2025
 
-* * * * *
-
+    ```
 Step 1: Create a New Branch
 ---------------------------
 

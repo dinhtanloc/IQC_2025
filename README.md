@@ -8,7 +8,7 @@ This document provides step-by-step instructions for creating a branch 
 
 - Clone the repository to your local machine if you haven't already:
 
-  ```bash
+  ```
 
   git clone [git-url](https://github.com/dinhtanloc/IQC_2025.git)
 

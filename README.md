@@ -1,4 +1,4 @@
-# Git Workflow Instructions
+# Instructions
 
 This document provides step-by-step instructions for creating a branch using your name and pushing code to the repository.
 
